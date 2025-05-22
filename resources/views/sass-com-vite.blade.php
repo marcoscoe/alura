@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('vite')
-    @vite(['resources/sass/sass-com-vite/main.scss'])
+    @vite(['resources/sass/sass-com-vite/main.scss', 'resources/js/sass-com-vite/main.js'])
 @endsection
 
 @section('main')
