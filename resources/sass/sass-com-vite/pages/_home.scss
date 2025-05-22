@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     &.banner-1 {
-        background-image: url('../../assets/banner-1.png');
+        background-image: url('../../assets/sass-com-vite/banner-1.png');
         .banner-content-container {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -28,7 +28,7 @@
         }
     }
     &.banner-2 {
-        background-image: url('../../assets/banner-2.png');
+        background-image:url('../../assets/sass-com-vite/banner-2.png');
         min-height: 25rem;
         display: flex;
         flex-direction: column;

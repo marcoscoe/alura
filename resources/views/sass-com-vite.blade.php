@@ -40,6 +40,7 @@
             </div>
         </div>
     </nav>
+
     <aside class="sidebar">
         <button class="sidebar-close" aria-label="Close sidebar">&times;</button>
         <a class="sidebar-brand" href="#">
@@ -68,7 +69,7 @@
             </li>
         </ul>
     </aside>
-    </header>
+
     <main>
         <section class="banner banner-1">
             <div class="banner-content-container">
@@ -102,7 +103,7 @@
                     </div>
                 </article>
                 <article class="card">
-                    <img src="./assets/delivery.png" alt="Caixa aberta armazenando comidas diversas">
+                    <img src="{{asset('assets/sass-com-vite//delivery.png')}}" alt="Caixa aberta armazenando comidas diversas">
                     <div class="card-body">
                         <h5>Delivery</h5>
                         <p>Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos produtos. Com o mesmo
@@ -121,33 +122,33 @@
             <h2>Nossos produtos</h2>
             <div class="products-container">
                 <div class="product-card" data-modal="modal-1">
-                    <img src="./assets/cafe-tradicional.png" alt="Café preto">
+                    <img src="{{asset('assets/sass-com-vite/cafe-tradicional.png')}}" alt="Café preto">
                     <h3>Cafés Tradicionais</h3>
                 </div>
                 <div class="product-card" data-modal="modal-2">
-                    <img src="./assets/cafe-especial.png" alt="Café expresso">
+                    <img src="{{asset('assets/sass-com-vite/cafe-especial.png')}}" alt="Café expresso">
                     <h3>Cafés Especiais</h3>
                 </div>
                 <div class="product-card">
-                    <img src="./assets/smoothies.png" alt="Vitaminas variadas">
+                    <img src="{{asset('assets/sass-com-vite/smoothies.png')}}" alt="Vitaminas variadas">
                     <h3>Smoothies e Vitaminas</h3>
                 </div>
                 <div class="product-card">
-                    <img src="./assets/paes.png" alt="Pães variados">
+                    <img src="{{asset('assets/sass-com-vite/paes.png')}}" alt="Pães variados">
                     <h3>Pães e Focaccias</h3>
                 </div>
                 <div class="product-card">
-                    <img src="./assets/bolo.png" alt="Bolo de morango">
+                    <img src="{{asset('assets/sass-com-vite/bolo.png')}}" alt="Bolo de morango">
                     <h3>Doces</h3>
                 </div>
                 <div class="product-card">
-                    <img src="./assets/quiche.png" alt="Torta salgada">
+                    <img src="{{asset('assets/sass-com-vite/quiche.png')}}" alt="Torta salgada">
                     <h3>Salgados</h3>
                 </div>
             </div>
         </section>
         <section class="">
-            <img src="../../assets/cafe-graos.png" alt="Grãos de café">
+            <img src="../.{{asset('assets/sass-com-vite/cafe-graos.png')}}" alt="Grãos de café">
         </section>
         <section class="contact">
             <div class="contact-container">
@@ -182,9 +183,9 @@
             <div class="footer-content">
                 <p>&copy; 2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
                 <div class="footer-image-container">
-                    <img src="./assets/whats.png" alt="Ícone do whatsapp">
-                    <img src="./assets/insta.png" alt="Ícone do instagram">
-                    <img src="./assets/twitter.png" alt="Ícone do twitter">
+                    <img src="{{asset('assets/sass-com-vite/whats.pn')}}g" alt="Ícone do whatsapp">
+                    <img src="{{asset('assets/sass-com-vite/insta.png')}}" alt="Ícone do instagram">
+                    <img src="{{asset('assets/sass-com-vite/twitter.png')}}" alt="Ícone do twitter">
                 </div>
             </div>
         </footer>
@@ -198,7 +199,7 @@
                 <button type="button" class="close-button" aria-label="Close">×</button>
             </div>
             <div class="modal-body">
-                <img src="./assets/cafe-tradicional.png" class="modal-image" alt="Xícara de café preto">
+                <img src="{{asset('assets/sass-com-vite/cafe-tradicional.png')}}" class="modal-image" alt="Xícara de café preto">
                 <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da
                     bebida. Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor
                     equilibrado.</p>
@@ -221,7 +222,7 @@
                 <button type="button" class="close-button" aria-label="Close">×</button>
             </div>
             <div class="modal-body">
-                <img src="./assets/cafe-especial.png" class="modal-image" alt="Xícara de café expresso">
+                <img src="{{asset('assets/sass-com-vite/cafe-especial.png')}}" class="modal-image" alt="Xícara de café expresso">
                 <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos
                     selecionados de alta qualidade e técnicas de preparo precisas.</p>
                 <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é
