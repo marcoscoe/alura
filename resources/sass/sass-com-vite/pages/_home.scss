@@ -108,12 +108,12 @@
 }
 
 .services {
-    padding: 6rem 0;
+    padding: 4rem 0;
 
     h2 {
         text-align: center;
         font-size: 2.5rem;
-        @extend %base-h2;
+        margin: 2rem 0;
     }
 
     .services-container {
