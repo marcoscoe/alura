@@ -1,13 +1,15 @@
 @use '../base/variables';
+
+@use '../utils/mixins';
+
 .banner {
     padding: 2rem;
     background-size: cover;
     background-position: center;
     color: variables.$secondary-color;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    justify-content: center;
+
+   @include mixins.flexbox($align: start, $direction: column);
+
     &.banner-1 {
         background-image: url('../../assets/sass-com-vite/banner-1.png');
         .banner-content-container {
