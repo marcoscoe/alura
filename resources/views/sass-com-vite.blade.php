@@ -1,10 +1,15 @@
 @extends('app')
+
+@section('vite')
+    @vite(['resources/sass/sass-com-vite/main.scss'])
+@endsection
+
 @section('main')
 
     <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="{{asset('assets/sass-com-vite/banner-1.png')}}" alt="Logo da cafeteria Serenatto">
+                <img src="{{asset('assets/sass-com-vite/logo-maior.png')}}" alt="Logo da cafeteria Serenatto">
             </a>
             <button class="navbar-toggler" aria-label="Menu" id="menu-toggle">
                 <span class="hamburger-icon"></span>
