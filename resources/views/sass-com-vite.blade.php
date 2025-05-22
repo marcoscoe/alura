@@ -148,7 +148,7 @@
             </div>
         </section>
         <section class="">
-            <img src="../.{{asset('assets/sass-com-vite/cafe-graos.png')}}" alt="Grãos de café">
+            <img src="{{asset('assets/sass-com-vite/cafe-graos.png')}}" alt="Grãos de café">
         </section>
         <section class="contact">
             <div class="contact-container">
